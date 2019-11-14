@@ -1,0 +1,82 @@
+* {
+  font-family: Courier;
+}
+
+.title {
+  font-size: 65px;
+  text-align: center;
+}
+
+.moves {
+  font-size: 78px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.result {
+  display: block;
+  font-size: 24px;
+  padding: 6px;
+  text-align: center;
+}
+
+.hand {
+  padding: 30px;
+  cursor: pointer;
+}
+
+.hand:hover {
+  color: #212120;
+}
+
+.result-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  font-size: 25px;
+}
+
+td, th {
+  border: 4px solid black;
+  padding: 10px;
+}
+
+td {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		overflow-x: hidden;
+	}
+	
+	.title {
+		font-size: 35px;
+	}
+	
+	.moves {
+		font-size: 45px;
+	}
+	
+	.result-title {
+		font-size: 30px;
+	}
+}
